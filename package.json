@@ -4,7 +4,7 @@
   "description": "practice project for mern project with graphql",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
     "apollo-server": "^3.6.3",
     "graphql": "^16.3.0",
     "mongoose": "^6.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
